@@ -1,0 +1,40 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* サイト全体のフォントデザイン */
+header, h1, nav, main, footer {
+  font-family: 'Kaushan', cursive, sans-serif;
+}
+
+body {
+  background-color: #ffeaea;
+}
+
+header {
+  width: 100%;
+  height: 10rem;
+  background-color: lightgreen;
+  
+}
+
+nav {
+  width: 80%;
+  height: 10rem;
+  background-color: red;
+}
+
+main {
+  width: 70%;
+  height: 100%;
+  background-color: orange;
+}
+
+footer {
+  width: 100%;
+  height: 10rem;
+  background-color: Blue;
+}
